@@ -2,11 +2,10 @@ print("------------------Calculator App---------------")
 
 print("\n")
 print("Select Any one One Arithematic Operation to PErform: ")
-print(" 1. Addition\n 2. Multiplication\n 3. Division\n 4. Substraction ")
-choice= input(" ► Select any One Number (  1 / 2 / 3 / 4  ) : ")
+print(" 1. Addition\n 2. Multiplication\n 3. Division\n 4. Substraction\n 5. Exit ")
+choice= input(" ► Select any One Number (  1 / 2 / 3 / 4  / 5) : ")
 
 if choice=="1":
-
 
     def add():
         print("\n------Addition Program-------")
@@ -48,3 +47,6 @@ if choice == "4":
         i = g-h
         return i
     print("The Substraction of Both Numbers are : ",sub())
+
+if choice == "5":
+    print("You hVe Terminated the session")
