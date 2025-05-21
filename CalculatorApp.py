@@ -6,7 +6,7 @@ print(" 1. Addition\n 2. Multiplication\n 3. Division\n 4. Substraction\n 5. Exi
 print("\n")
 option= input(" ► Select any One Number (  1 / 2 / 3 / 4  / 5) : ")
   
-if option=="1":
+if option=='1':
 
     def add():
         print("\n------Addition Program-------")
