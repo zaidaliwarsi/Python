@@ -1,8 +1,9 @@
+print("\n")
 print("------------------Calculator App---------------")
-
 print("\n")
 print("Select Any one One Arithematic Operation to PErform: ")
 print(" 1. Addition\n 2. Multiplication\n 3. Division\n 4. Substraction\n 5. Exit ")
+print("\n")
 choice= input(" ► Select any One Number (  1 / 2 / 3 / 4  / 5) : ")
 
 if choice=="1":
