@@ -4,9 +4,9 @@ print("\n")
 print("⇴▸▷ Select Any one One Arithematic Operation to PErform: ")
 print(" 1. Addition\n 2. Multiplication\n 3. Division\n 4. Substraction\n 5. Exit ")
 print("\n")
-choice= input(" ► Select any One Number (  1 / 2 / 3 / 4  / 5) : ")
-
-if choice=="1":
+option= input(" ► Select any One Number (  1 / 2 / 3 / 4  / 5) : ")
+  
+if option=="1":
 
     def add():
         print("\n------Addition Program-------")
@@ -17,7 +17,7 @@ if choice=="1":
         return z
     print("The Addition of 2 Numbers is : ",add())
 
-if choice=="2":
+if option=="2":
 
     def mul():
         print("\n------Multiplication Program-------")
@@ -28,7 +28,7 @@ if choice=="2":
         return c
     print("The Multiplication of Both Numbers are : ",mul())
 
-if choice == "3":
+if option == "3":
 
     def div():
         print("\n------Division Program-------")
@@ -39,7 +39,7 @@ if choice == "3":
         return f
     print("The Division of Both Numbers are : ",div())
 
-if choice == "4":
+if option == "4":
     def sub():
         print("\n------Substraction Program-------")
         print("\n")
@@ -49,5 +49,5 @@ if choice == "4":
         return i
     print("The Substraction of Both Numbers are : ",sub())
 
-if choice == "5":
+if option == "5":
     print("You hVe Terminated the session")
